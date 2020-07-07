@@ -2,6 +2,6 @@
 Intro to NoSQL 
 
 
-contributors
+# contributors
 
 Professor Itskovich - Bellevue University Becca Buechle - Bellevue University
