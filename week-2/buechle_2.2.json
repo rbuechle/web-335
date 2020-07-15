@@ -1,0 +1,53 @@
+{
+    "id": 425,
+    "first_name": "Becca",
+    "last_name": "Buechle",
+    "date_of_birth": "12-29-1987",
+    "user_name": "rbuechle",
+    "invoices": [
+        {
+            "_id": 512,
+            "date_created": "01-01-2020",
+            "date_shipped": "01-10-2020",
+            "subtotal": {},
+            "tax": {},
+            "total": {},
+            "items": [
+              {
+            "_id": "81303",
+            "name": "Razer Blade Laptop",
+            "price": "1700.00",
+            "quantity": "1"
+        },
+        {
+            "id": 79424,
+            "name": "RGB mouse pad",
+            "price": "59.99",
+            "quantity": "2"
+        }
+    ]
+  },
+  {
+    "id": 603,
+    "date_created": "04-20-20",
+    "date_shipped": "04-25-20",
+    "subtotal": {},
+    "tax": {},
+    "total": {},
+    "items": [
+    {
+        "_id": "467",
+        "name": "Naga Epic Mouse",
+        "price": "129.99",
+        "quantity": "1"
+    },
+    {
+        "_id": "57182",
+        "name": "Razer keyboard",
+        "price": "145.00",
+        "quantity": "1"
+    }
+   ]
+  }
+ ]  
+}
