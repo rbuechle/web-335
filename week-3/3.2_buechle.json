@@ -1,0 +1,57 @@
+{
+    "users": [
+        {
+            "_id": 425,
+            "first_name": "Becca",
+            "last_name": "Buechle",
+            "roles": [
+                {
+                    "_id": 123, 
+                    "name": "user",
+                    "permission": [
+                        {
+                            "_id": "456",
+                            "name": "READ"
+                        },
+                        {
+                            "_id": "789",
+                            "name": "UPDATE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_id": 987,
+            "first_name": "Jack",
+            "last_name": "Bradshaw",
+            "roles": [
+                {
+                    "_id": 987,
+                    "name": "Admin",
+                    "permission": [
+                        {
+                            "_id": "654",
+                            "name": "READ"
+                        },
+                        {
+                            "_id": "321",
+                            "name": "UPDATE"
+                        },
+                        {
+                            "_id": "098",
+                            "name": "CREATE"
+                        },
+                        {
+                            "_id": "076",
+                            "name": "DELETE"
+                        }
+
+                    ]
+                }
+            ]
+
+        }
+
+    ]
+}
