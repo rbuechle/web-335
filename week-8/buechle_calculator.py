@@ -1,4 +1,12 @@
-def add(a,b):
+# ============================================
+# ; Title: Exercise 8.3–Python in Action
+# ; Author: Peter Itskovich 
+# ; Date: 25 Aug 2020
+# ; Modified By: Becca Buechle 
+# ; Description: Calc with Python
+# ;===========================================
+
+ add(a,b):
     return a + b
 
 def subtract(a,b):
