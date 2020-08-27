@@ -1,0 +1,74 @@
+{
+    "account": {
+        "email": "dude@guy.com",
+        "password" : "password",
+        "users": [
+            {
+                "username": "dude",
+                "watchlist": [
+                    {
+                        "title": "show 1",
+                        "description": "This is the first show."
+                    },
+                    {
+                        "title": "movie 1",
+                        "description": "This is the first movie"
+                    }
+                ],
+                "parental controls": [
+                    {
+                        "type": "rating limit",
+                        "value": "none"
+                    },
+                    {
+                        "type": "time limit",
+                        "value": "none"
+                    }
+                ]
+            },
+            {
+                "username": "dudette",
+                "watchlist": [
+                    {
+                        "title": "show 2",
+                        "description": "This is the second show."
+                    },
+                    {
+                        "title": "movie 2",
+                        "description": "This is the second movie"
+                    }
+                ],
+                "parental controls": [
+                    {
+                        "type": "rating limit",
+                        "value": "PG"
+                    },
+                    {
+                        "type": "time limit",
+                        "value": "4 hrs"
+                    }
+                ]
+            }
+        ],
+        "payment methods": [
+            {
+                "type": "debit",
+                "account": "1234 5687 9012 3456"
+            },
+            {
+                "type": "paypal",
+                "account": "dude@guy.com"
+            }   
+        ],
+        "registered devices": [
+            {
+                "name": "dude's TV",
+                "MAC": "00-00-00-00-00-00"
+            },
+            {
+                "name": "dude's iPad",
+                "MAC": "FF-FF-FF-FF-FF-FF"
+            }
+        ]
+    }
+}
