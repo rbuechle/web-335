@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>0</y>
+      <w>390</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>_Parent Controls_
+--
+{
+   "type": "rating limit",
+       "value": "none"
+       },
+       {
+    "type": "time limit",
+        "value": "none"
+         }
+          ]
+}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>0</y>
+      <w>380</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>_User_
+--
+{
+                "username": "dude",
+                "watchlist": [
+                    {
+                        "title": "show 1",
+                        "description": "This is the first show."
+                    },
+                    {
+                        "title": "movie 1",
+                        "description": "This is the first movie"
+                    }
+                ],
+                "parental controls": [
+                    {
+                        "type": "rating limit",
+                        "value": "none"
+                    },
+                    {
+                        "type": "time limit",
+                        "value": "none"
+                    }
+                ]
+}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>10</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.*
+m2=1.*
+has many &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>450</y>
+      <w>390</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>_Watchlist_
+--
+"watchlist": [
+  {
+     "title": "show 1",
+     "description": "This is the first show."
+   },
+   {
+      "title": "movie 1",
+      "description": "This is the first movie"
+    }</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>490</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.*
+m2=1.*
+has many &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>900</y>
+      <w>390</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>_Account_
+--
+ {
+        "email": "dude@guy.com",
+        "password" : "password"
+ }
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>920</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+can have &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>1430</y>
+      <w>390</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>_Payment Methods_
+--
+{
+                "type": "debit",
+                "account": "1234 5687 9012 3456"
+            },
+            {
+                "type": "paypal",
+                "account": "dude@guy.com"
+            }   
+        ],
+}
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>1450</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+can have &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>1430</y>
+      <w>390</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>_Account_
+--
+ {
+        "email": "dude@guy.com",
+        "password" : "password"
+ }
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>1690</y>
+      <w>390</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_Account_
+--
+ {
+        "email": "dude@guy.com",
+        "password" : "password"
+ }
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>1710</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+can have &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>1690</y>
+      <w>400</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>_Registered Devices_
+--
+{
+                "name": "dude's TV",
+                "MAC": "00-00-00-00-00-00"
+            },
+            {
+                "name": "dude's iPad",
+                "MAC": "FF-FF-FF-FF-FF-FF"
+            }
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>450</y>
+      <w>380</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>_User_
+--
+{
+                "username": "dude",
+                "watchlist": [
+                    {
+                        "title": "show 1",
+                        "description": "This is the first show."
+                    },
+                    {
+                        "title": "movie 1",
+                        "description": "This is the first movie"
+                    }
+                ],
+                "parental controls": [
+                    {
+                        "type": "rating limit",
+                        "value": "none"
+                    },
+                    {
+                        "type": "time limit",
+                        "value": "none"
+                    }
+                ]
+}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>900</y>
+      <w>380</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>_User_
+--
+{
+                "username": "dude",
+                "watchlist": [
+                    {
+                        "title": "show 1",
+                        "description": "This is the first show."
+                    },
+                    {
+                        "title": "movie 1",
+                        "description": "This is the first movie"
+                    }
+                ]
+                "parental controls": [
+                    {
+                        "type": "rating limit",
+                        "value": "none"
+                    },
+                    {
+                        "type": "time limit",
+                        "value": "none"
+                    }
+                ]
+            },
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
